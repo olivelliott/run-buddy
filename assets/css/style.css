@@ -255,6 +255,7 @@ section {
 .contact-info div {
     width: 410px;
     display: inline-block;
+    /* This allows the text to be in the same line as iframe & create 2 column layout */
     vertical-align: top;
     text-align: left;
     margin: 30px 0 0 60px;
