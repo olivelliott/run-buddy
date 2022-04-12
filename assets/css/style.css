@@ -9,6 +9,19 @@ body {
     color: #39a6b2;
 }
 
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Header, Navigation, & Footer Section Style Starts Here*/ 
 header {
     /* Applies 20px to the top & bottom, then 35 px to the left & right */
     padding: 20px 35px;
@@ -137,6 +150,8 @@ section {
 .secondary-border {
     border-color: #39a6b2
 }
+
+/* What We Do Section Style Starts Here */
 .intro {
     text-align: center;
 }
@@ -151,6 +166,7 @@ section {
     same as display:inline-block would do */
 }
 
+/* What You Do Style Starts Here */
 .steps {
     text-align: center;
     background: #fce138;
@@ -180,6 +196,7 @@ section {
     font-size: 38px;
 }
 
+/* Trainer Bio Styles Start Here */ 
 .trainers {
     text-align: center;
 }
@@ -220,14 +237,26 @@ section {
     font-size: 17px;
     line-height: 1.3;
 }
-.text-left {
+
+/* Reach Out Styles Start */
+.contact {
+    background-color: #024e76;
+}
+
+.contact h2 {
+    color:#fce138;
+}
+
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+}
+
+.contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
     text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.text-center {
-    text-align: center;
+    margin: 30px 0 0 60px;
+    color: white;
 }
