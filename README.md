@@ -13,4 +13,4 @@ https://lernantino.github.io/run-buddy/
 ## Contribution
 Made with ❤️ by Olivia Elliott
 
-TEST
+### ©️2019 Run Buddy, Inc 
