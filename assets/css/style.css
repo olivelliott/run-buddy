@@ -18,6 +18,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: sticky;
+    top: 0;
   }
   
   header h1 {
@@ -25,6 +27,7 @@
     margin: 0;
     font-size: 36px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
   header a {
@@ -48,11 +51,10 @@
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
   /* HEADER / NAVBAR STYLES END */
-  
-  
   
   /* FOOTER STYLES START */
   footer {
@@ -111,15 +113,18 @@
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
   .hero-form {
     border: 3px solid #024e76;
-    background-color: #fce138;
+    border-radius: 15px;
+    background-color: rgba(252, 225, 56, 0.8);
     padding: 20px;
     color: #024e76;
     width: 40%;
     margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
   .hero-form h3 {
@@ -138,6 +143,7 @@
     color: #024e76;
     width: 100%;
     margin-bottom: 15px; 
+    border-radius: 10px;
   }
   
   .hero-form label {
@@ -150,6 +156,7 @@
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+    border-radius: 10px;
   } 
   /* HERO STYLES END */
   
@@ -324,6 +331,7 @@
   
   .contact-form input, .contact-form textarea {
     border: 1px solid #024e76;
+    border-radius: 10px;
     display: block;
     padding: 7px 15px;
     font-size: 16px;
@@ -336,6 +344,7 @@
   .contact-form button {
     width: 100%;
     border: none;
+    border-radius: 10px;
     background: #fce138;
     color: #024e76;
     text-align: center;
@@ -366,7 +375,6 @@
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS & SMALLER */
   /* this will be applied on any screen smaller than 980px */
   @media screen and (max-width: 980px) {
-        /* HEADER STYLE */
       header {
           padding-bottom: 0;
           justify-content: center;
@@ -387,13 +395,11 @@
           font-size: 20px;
       }
 
-      /* FOOTER STYLE */
       footer h2, footer div {
           text-align: center;
           width: 100%;
       }
 
-      /* HERO SECTION STYLE */
       .hero-cta, .hero-form {
           width: 100%;
       }
@@ -402,17 +408,14 @@
           text-align: center;
       }
 
-      /* SECTION TITLE STYLE */
       .section-title {
           width: 80%;
       }
 
-      /* MEET THE TRAINER SECTION STLYE */
       .trainer {
           flex: 0 70%;
       }
 
-      /* REACH OUT SECTION STYLE */
       .contact-info iframe {
           flex: 1 100%
       }
@@ -425,7 +428,6 @@
           padding: 30px 15px;        
       }
 
-      /* WHAT YOU DO SECTION STYLE */
       .step h3 {
           flex: 1 100%;
           text-align: center;
